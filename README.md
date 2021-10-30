@@ -1,6 +1,6 @@
-# Webpack + Babel + TypeScript のテンプレート
+# Webpack + TypeScript のテンプレート
 
-webpackとbabelを組み合わせた場合のテンプレートになります。
+WebpackとTypeScriptを組み合わせた場合のテンプレートになります。
 
 ## 依存関係
 
