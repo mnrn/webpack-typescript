@@ -42,7 +42,7 @@ develop-root/
 npm run build:dev
 
 # 開発用サーバー立ち上げ
-npm run serv
+npm run serve
 
 # 本番用ビルド
 npm run build
