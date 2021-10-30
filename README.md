@@ -1,4 +1,4 @@
-# Webpack + Babel のテンプレート
+# Webpack + Babel + TypeScript のテンプレート
 
 webpackとbabelを組み合わせた場合のテンプレートになります。
 
@@ -12,11 +12,11 @@ npm init -y
 # Webpack関連
 npm install webpack webpack-cli webpack-merge --save-dev
 
-# Babel関連
-npm install babel-loader @babel/core @babel/cli @babel/preset-env --save-dev
-
 # 開発用サーバー
 npm install webpack-dev-server --save-dev
+
+# TypeScript関連
+npm install typescript ts-loader --save-dev
 ```
 
 ## ディレクトリ構成
@@ -25,11 +25,11 @@ npm install webpack-dev-server --save-dev
 develop-root/
   ├ src/
   │   ├ components/
-  │   └ index.js 
+  │   └ index.ts 
   ├ dist/
   │   ├ js/
   │   └ index.html
-  ├ babel.config.js
+  ├ tsconfig.json
   ├ webpack.common.js
   ├ webpack.dev.js
   └ webpack.prod.js
